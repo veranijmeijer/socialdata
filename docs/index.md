@@ -1,5 +1,6 @@
-# social data vis
+# Social Data Visualization
 
-## project
+## Final project
 
-See you soon
+Insert image:
+

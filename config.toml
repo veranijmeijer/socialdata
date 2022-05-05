@@ -1,4 +1,4 @@
-baseURL = 'https://github.com/veranijmeijer/socialdata/'
+baseURL = 'https://veranijmeijer.github.io/socialdata/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "ananke"

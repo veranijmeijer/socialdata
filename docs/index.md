@@ -4,4 +4,4 @@
 
 Insert image:
 
-![Can my image please show]({{< baseurl >}}/pltfig.png)
+![Can my image please show]({{< baseurl >}}/image/pltfig.png)

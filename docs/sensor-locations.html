@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0e80ff723d7d7e1552dd6a80e241988c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+             <h3 align="center" style="font-size:16px"><b>Visualization of Sensor Locations in Melbourne</b></h3>
+             
+    
+            <div class="folium-map" id="map_0e80ff723d7d7e1552dd6a80e241988c" ></div>
+        
+</body>
+<script>    
+    
+            var map_0e80ff723d7d7e1552dd6a80e241988c = L.map(
+                "map_0e80ff723d7d7e1552dd6a80e241988c",
+                {
+                    center: [-37.817, 144.9631],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f321085ff0bbc6894bf8800bc4ff1292 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0e80ff723d7d7e1552dd6a80e241988c);
+        
+    
+            var marker_cbe6473a78222ed4359a27c038c09b98 = L.marker(
+                [-37.810278, 144.9725],
+                {}
+            ).addTo(map_0e80ff723d7d7e1552dd6a80e241988c);
+        
+    
+        var popup_8adfed37180b65985ebd775ca2991ec8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0b74cd04ce8dfbc7750bae917c61741 = $(`<div id="html_d0b74cd04ce8dfbc7750bae917c61741" style="width: 100.0%; height: 100.0%;">Sensor ID: 1015 Spring Street between Little Bourke Street and Lonsdale Street, approximately 13m NE of Holmes Colleges Australia, 185-197 Spring StreetMELBOURNE VIC 3000</div>`)[0];
+            popup_8adfed37180b65985ebd775ca2991ec8.setContent(html_d0b74cd04ce8dfbc7750bae917c61741);
+        
+
+        marker_cbe6473a78222ed4359a27c038c09b98.bindPopup(popup_8adfed37180b65985ebd775ca2991ec8)
+        ;
+
+        
+    
+    
+            var marker_fc9e1d7b0330a1f543585538c2e3e47a = L.marker(
+                [-37.813333, 144.97],
+                {}
+            ).addTo(map_0e80ff723d7d7e1552dd6a80e241988c);
+        
+    
+        var popup_0762a2e71d1b19f758363735987c3d65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ccfbc745a29afdba4d78a48176bc07fc = $(`<div id="html_ccfbc745a29afdba4d78a48176bc07fc" style="width: 100.0%; height: 100.0%;">Sensor ID: 1012 Little Collins Street between Exhibition Street and Russell Street, approximately 3m SE of Vacant as at 07-MAR-22, 112 Little Collins StreetMELBOURNE VIC 3000</div>`)[0];
+            popup_0762a2e71d1b19f758363735987c3d65.setContent(html_ccfbc745a29afdba4d78a48176bc07fc);
+        
+
+        marker_fc9e1d7b0330a1f543585538c2e3e47a.bindPopup(popup_0762a2e71d1b19f758363735987c3d65)
+        ;
+
+        
+    
+    
+            var marker_f87d95ea930901027192012bba9d27ee = L.marker(
+                [-37.811944, 144.956389],
+                {}
+            ).addTo(map_0e80ff723d7d7e1552dd6a80e241988c);
+        
+    
+        var popup_7c03c4224f2015cda65778eef732e857 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e45970e17e3b0f9af66ed6493a8c30c = $(`<div id="html_7e45970e17e3b0f9af66ed6493a8c30c" style="width: 100.0%; height: 100.0%;">Sensor ID: 1013 William Street between Little Lonsdale Street and La Trobe Street, approximately 24m West of The Mint Bar & Restaurant, Northern GuardhouseRoyal Mint318 William StreetMELBOURNE VIC 3000</div>`)[0];
+            popup_7c03c4224f2015cda65778eef732e857.setContent(html_7e45970e17e3b0f9af66ed6493a8c30c);
+        
+
+        marker_f87d95ea930901027192012bba9d27ee.bindPopup(popup_7c03c4224f2015cda65778eef732e857)
+        ;
+
+        
+    
+    
+            var marker_5d3ede21b1be30cc147d66787a393034 = L.marker(
+                [-37.82250002, 144.95222195],
+                {}
+            ).addTo(map_0e80ff723d7d7e1552dd6a80e241988c);
+        
+    
+        var popup_7455389468d8d2bcb6edf4129063f045 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67a43d265d4c8fe9ccae56409c0c4da1 = $(`<div id="html_67a43d265d4c8fe9ccae56409c0c4da1" style="width: 100.0%; height: 100.0%;">Sensor ID: 1010 Melbourne Convention Centre Carpark, approximately 31m NE of Hanoi Square, Unit 14, Ground 60 Siddeley StreetDOCKLANDS VIC 3008</div>`)[0];
+            popup_7455389468d8d2bcb6edf4129063f045.setContent(html_67a43d265d4c8fe9ccae56409c0c4da1);
+        
+
+        marker_5d3ede21b1be30cc147d66787a393034.bindPopup(popup_7455389468d8d2bcb6edf4129063f045)
+        ;
+
+        
+    
+    
+            var marker_31a228ef02f932a0e069efaf8fcc2d92 = L.marker(
+                [-37.822222, 144.952222],
+                {}
+            ).addTo(map_0e80ff723d7d7e1552dd6a80e241988c);
+        
+    
+        var popup_987170158ffb764a3e72c3042d3c2ce8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a976720ac18686930eb84ba7f5210e82 = $(`<div id="html_a976720ac18686930eb84ba7f5210e82" style="width: 100.0%; height: 100.0%;">Sensor ID: 1011 Melbourne Convention Centre Carpark, approximately 38m East of Care Park, Melbourne Convention Centre Carpark671-701 Flinders StreetDOCKLANDS VIC 3008</div>`)[0];
+            popup_987170158ffb764a3e72c3042d3c2ce8.setContent(html_a976720ac18686930eb84ba7f5210e82);
+        
+
+        marker_31a228ef02f932a0e069efaf8fcc2d92.bindPopup(popup_987170158ffb764a3e72c3042d3c2ce8)
+        ;
+
+        
+    
+    
+            var marker_a7925bd3daa14a88061b23738f57c42f = L.marker(
+                [-37.812778, 144.960556],
+                {}
+            ).addTo(map_0e80ff723d7d7e1552dd6a80e241988c);
+        
+    
+        var popup_c65ebef2721ed36af342f2c1ee6a50ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efe69f92d960e89133023996c31218d3 = $(`<div id="html_efe69f92d960e89133023996c31218d3" style="width: 100.0%; height: 100.0%;">Sensor ID: 1016 Lonsdale Street between Elizabeth Street and Queen Street, approximately 16m South of Who Salon, 402 Lonsdale StreetMELBOURNE VIC 3000</div>`)[0];
+            popup_c65ebef2721ed36af342f2c1ee6a50ea.setContent(html_efe69f92d960e89133023996c31218d3);
+        
+
+        marker_a7925bd3daa14a88061b23738f57c42f.bindPopup(popup_c65ebef2721ed36af342f2c1ee6a50ea)
+        ;
+
+        
+    
+    
+            var marker_e5afa85d5e9295de9610950d96c607c0 = L.marker(
+                [-37.81686763, 144.96570467],
+                {}
+            ).addTo(map_0e80ff723d7d7e1552dd6a80e241988c);
+        
+    
+        var popup_089903495db1a81654097b4b52d51e04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12f7f19c0cee0506d8698447794d6484 = $(`<div id="html_12f7f19c0cee0506d8698447794d6484" style="width: 100.0%; height: 100.0%;">Sensor ID: 1009 Flinders Lane between Swanston Street and Elizabeth Street, approximately 7m South of Centro Espresso, Shop 2, 252 Flinders LaneMELBOURNE VIC 3000</div>`)[0];
+            popup_089903495db1a81654097b4b52d51e04.setContent(html_12f7f19c0cee0506d8698447794d6484);
+        
+
+        marker_e5afa85d5e9295de9610950d96c607c0.bindPopup(popup_089903495db1a81654097b4b52d51e04)
+        ;
+
+        
+    
+    
+            var marker_2d51056051d588b5a316ce0a9578a603 = L.marker(
+                [-37.82246, 144.951835],
+                {}
+            ).addTo(map_0e80ff723d7d7e1552dd6a80e241988c);
+        
+    
+        var popup_bdcb799405e1c15b59d3482b4339f167 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b632ae44a59d9b5ff548126caa55886 = $(`<div id="html_3b632ae44a59d9b5ff548126caa55886" style="width: 100.0%; height: 100.0%;">Sensor ID: 1007 Siddeley Street between Spencer Street and Wurundjeri Way, approximately 24m South of Care Park, Melbourne Convention Centre Carpark671-701 Flinders StreetDOCKLANDS VIC 3008</div>`)[0];
+            popup_bdcb799405e1c15b59d3482b4339f167.setContent(html_3b632ae44a59d9b5ff548126caa55886);
+        
+
+        marker_2d51056051d588b5a316ce0a9578a603.bindPopup(popup_bdcb799405e1c15b59d3482b4339f167)
+        ;
+
+        
+    
+    
+            var marker_6c90bd4235324471a92ba55c75fe9af5 = L.marker(
+                [-37.8175, 144.967222],
+                {}
+            ).addTo(map_0e80ff723d7d7e1552dd6a80e241988c);
+        
+    
+        var popup_30b1b1c815fdecd09c3947e027037e06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75950541fc5b6e4776abd7b7aee2c8c5 = $(`<div id="html_75950541fc5b6e4776abd7b7aee2c8c5" style="width: 100.0%; height: 100.0%;">Sensor ID: 1014 Flinders Street between Swanston Street and Elizabeth Street, approximately 15m South of Young & Jackson, Young And Jacksons Hotel1-7 Swanston StreetMELBOURNE VIC 3000</div>`)[0];
+            popup_30b1b1c815fdecd09c3947e027037e06.setContent(html_75950541fc5b6e4776abd7b7aee2c8c5);
+        
+
+        marker_6c90bd4235324471a92ba55c75fe9af5.bindPopup(popup_30b1b1c815fdecd09c3947e027037e06)
+        ;
+
+        
+    
+</script>

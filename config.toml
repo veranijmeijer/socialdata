@@ -6,3 +6,5 @@ publishDir = "docs"
 sectionPagesMenu = "main"
 [markup.goldmark.renderer]
   unsafe = true
+github:
+  is_project_page: false

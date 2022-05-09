@@ -4,3 +4,5 @@ title = 'My New Hugo Site'
 theme = "meme"
 publishDir = "docs"
 sectionPagesMenu = "main"
+[markup.goldmark.renderer]
+  unsafe = true

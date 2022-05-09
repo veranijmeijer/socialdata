@@ -4,7 +4,7 @@
 
 Folium map:
 
-<iframe src="temperature-tree.html"
+<iframe src="/socialdata/docs/temperature-tree.html"
 	sandbox="allow-same-origin allow-scripts"
 	width="100%"
 	height="500"

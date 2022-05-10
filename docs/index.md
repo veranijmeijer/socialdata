@@ -28,7 +28,7 @@ These line charts show the temperature for the different sensors in Melbourne. F
 	frameborder="0">
 </iframe>
 
-This map shows the temperature measured by different sensors in Melbourne. The size of the circle shows the number of trees in a 250 meter radius around the sensor. The expectation was that the measured temperature would be lower for sensors that are surrounded by more trees ([source](https://www.epa.gov/heatislands/using-trees-and-vegetation-reduce-heat-islands)). However, the highest temperature recorded was for a sensor with the highest number of trees whereas the lowest temperature of 14.57 degrees is measured by a sensor that is surrounded by an average number of trees. What stands out about this location is that it is located by the Docklands, which means it is by the water. An explanation for the lower temperature in this area is that the water coming from the ocean has a cooling effect (source). 
+This map shows the temperature measured by different sensors in Melbourne. The size of the circle shows the number of trees in a 250 meter radius around the sensor. The expectation was that the measured temperature would be lower for sensors that are surrounded by more trees ([source](https://www.epa.gov/heatislands/using-trees-and-vegetation-reduce-heat-islands)). However, the highest temperature recorded was for a sensor with the highest number of trees whereas the lowest temperature of 14.57 degrees is measured by a sensor that is surrounded by an average number of trees. What stands out about this location is that it is located by the Docklands, which means it is by the water. An explanation for the lower temperature in this area is that the water coming from the ocean has a cooling effect ([source](https://floridakeys.noaa.gov/ocean/weather.html)). 
 
 To further investigate the relationships between trees and temperature we made a linear regression model. For this linear regression model we added the variable 'Time' which is the time of the day and the variable 'Count', which is the number of trees in a 250m radius from the sensor.
 
@@ -38,7 +38,7 @@ The linear regression model has a high R2-score of 0.83, which means the model i
 
 ## Impact on anxiety and stress
 
-Trees have a positive influence on anxiety and stress levels of people (source). Therefore we are examining the presence of trees around certain facilities in Melbourne. To do this we add an extra dataset to the analysis. This dataset contains the locations of facilities in Melbourne, and a few extra variables: theme, sub theme and feature name. For our analysis we focus on facilities that can be categorized into one of the following themes:
+Trees have a positive influence on anxiety and stress levels of people ([source](https://www.weforum.org/agenda/2021/04/city-trees-reduce-stress-and-anxiety/)). Therefore we are examining the presence of trees around certain facilities in Melbourne. To do this we add an extra dataset to the analysis. This dataset contains the locations of facilities in Melbourne, and a few extra variables: theme, sub theme and feature name. For our analysis we focus on facilities that can be categorized into one of the following themes:
 
 * Health Services: hospitals and medical centres
 * Education Centre: primary schools, secondary schools and universities
@@ -46,8 +46,8 @@ Trees have a positive influence on anxiety and stress levels of people (source).
 * Leisure/Recreation: parks, sport locations and indoor and outdoor recreational facilities
 * Community Use: police and fire stations, cemeteries, government buildings and visitor centres
 
-The goal of the analysis is to find out if there are more trees around locations that can be considered stressful (source), like hospitals, schools, police stations and offices compared to recreational facilities. 
+The goal of the analysis is to find out if there are more trees around locations that can be considered stressful, like hospitals ([source](https://www.researchgate.net/publication/215477754_How_do_patients_experience_stress_caused_by_hospitalization_and_how_do_nurses_perceive_this_stress_experienced_by_patients_A_comparative_study)), schools ([source](https://www.npr.org/sections/health-shots/2013/12/02/246599742/school-stress-takes-a-toll-on-health-teens-and-parents-say?t=1652184699945)), police stations and offices ([source](https://www.cnbc.com/2021/08/03/1-in-3-people-say-return-to-office-negatively-impacted-mental-health.html)) compared to recreational facilities. 
 
 ![Boxplot Trees around Facilities](boxplot.png)
 
-The boxplot shows that there are no big differences in the number of trees surrounding different types of facilities. Around leisure and recreation facilities there seem to be a little bit more trees than around the other facility types. In order to reduce stress and anxiety amongst citizens in Melbourne it could be a good idea for the city to focus on planting more trees around the other facility types, because those facility types are already stresful places.
+The boxplot shows that there are no big differences in the number of trees surrounding different types of facilities. Around leisure and recreation facilities there seem to be a little bit more trees than around the other facility types. In order to reduce stress and anxiety amongst citizens in Melbourne it could be a good idea for the city to focus on planting more trees around the other facility types, because those facility types are already stresful places. Because of the stress-reducing effect of trees, it would be good to have more trees around those facilities.

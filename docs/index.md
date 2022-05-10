@@ -42,7 +42,9 @@ The linear regression model has a high R2-score of 0.83, which means the model i
 
 ## Impact on anxiety and stress
 
-Trees have a positive influence on anxiety and stress levels of people ([source](https://www.weforum.org/agenda/2021/04/city-trees-reduce-stress-and-anxiety/)). Therefore we are examining the presence of trees around certain facilities in Melbourne. To do this we add an extra dataset to the analysis. This dataset contains the locations of facilities in Melbourne, and a few extra variables: theme, sub theme and feature name. For our analysis we focus on facilities that can be categorized into one of the following themes:
+Trees have a positive influence on anxiety and stress levels of people ([source](https://www.weforum.org/agenda/2021/04/city-trees-reduce-stress-and-anxiety/)). Therefore we are examining the presence of trees around certain facilities in Melbourne. To do this we add an extra dataset to the analysis. This dataset contains the locations of facilities in Melbourne, and a few extra variables: theme, sub theme and feature name.  
+
+For our analysis we focus on facilities that can be categorized into one of the following themes:
 
 * Health Services: hospitals and medical centres
 * Education Centre: primary schools, secondary schools and universities
@@ -50,7 +52,11 @@ Trees have a positive influence on anxiety and stress levels of people ([source]
 * Leisure/Recreation: parks, sport locations and indoor and outdoor recreational facilities
 * Community Use: police and fire stations, cemeteries, government buildings and visitor centres
 
-The goal of the analysis is to find out if there are more trees around locations that can be considered stressful, like hospitals ([source](https://www.researchgate.net/publication/215477754_How_do_patients_experience_stress_caused_by_hospitalization_and_how_do_nurses_perceive_this_stress_experienced_by_patients_A_comparative_study)), schools ([source](https://www.npr.org/sections/health-shots/2013/12/02/246599742/school-stress-takes-a-toll-on-health-teens-and-parents-say?t=1652184699945)), police stations and offices ([source](https://www.cnbc.com/2021/08/03/1-in-3-people-say-return-to-office-negatively-impacted-mental-health.html)) compared to recreational facilities. 
+<center>
+	<img src="bar-facilities.png">
+</center>
+
+The bar chart shows that there are a lot more Leisure/Recreation facilities in Melbourne than facilities from the other four categories. This makes sense, because of facilities like police stations there are only a few needed, whereas sports facilities need to be located all over the city. The goal of the analysis is to find out if there are more trees around locations that can be considered stressful, like hospitals ([source](https://www.researchgate.net/publication/215477754_How_do_patients_experience_stress_caused_by_hospitalization_and_how_do_nurses_perceive_this_stress_experienced_by_patients_A_comparative_study)), schools ([source](https://www.npr.org/sections/health-shots/2013/12/02/246599742/school-stress-takes-a-toll-on-health-teens-and-parents-say?t=1652184699945)), police stations and offices ([source](https://www.cnbc.com/2021/08/03/1-in-3-people-say-return-to-office-negatively-impacted-mental-health.html)) compared to recreational facilities. 
 
 <center>
 	<img src="boxplot.png">
